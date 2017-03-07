@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 
 public abstract class InstrumentoMusical {
 
-    private String rutaBase = "/com/enfocat/instrumental/media/";
+    private final String rutaBase = "/com/enfocat/instrumental/media/";
 
     public void sonar() {
         MP3PlayerThread mp3a;
@@ -17,8 +17,6 @@ public abstract class InstrumentoMusical {
         } catch (Exception ex) {
             Logger.getLogger(MP3PlayerThread.class.getName()).log(Level.SEVERE, null, ex);
         }
-
-
     }
 
     public abstract String getFileName();
