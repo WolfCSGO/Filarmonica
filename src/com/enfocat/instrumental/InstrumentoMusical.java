@@ -1,6 +1,6 @@
 package com.enfocat.instrumental;
 
-import com.alexco.media.MP3Player;
+
 import com.alexco.media.MP3PlayerThread;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -18,13 +18,7 @@ public abstract class InstrumentoMusical {
             Logger.getLogger(MP3PlayerThread.class.getName()).log(Level.SEVERE, null, ex);
         }
 
-        /*MP3Player mp3;
-        try {
-            mp3 = new MP3Player(MP3Player.class.getResource(rutaBase + this.rutaSonido));
-            mp3.play();
-        } catch (Exception ex) {
-            Logger.getLogger(InstrumentoMusical.class.getName()).log(Level.SEVERE, null, ex);
-        }*/
+
     }
 
     public abstract String getFileName();
