@@ -7,10 +7,11 @@ package com.enfocat.instrumental;
 
 /**
  *
- * @author mati
+ * @author Alex Torregrosa
  */
 public class Test {
     public static void main(String[] args) {
+        // comentario
         InstrumentoMusical trompeta = new Trompeta();
         InstrumentoMusical guitarra = new Guitarra();
         InstrumentoMusical violin = new Violin();
